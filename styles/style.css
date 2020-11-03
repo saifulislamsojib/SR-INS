@@ -13,8 +13,11 @@ section{
     border-radius: 10px;
     transition: 0.5s;
 }
-.service_all{
-    width:100%;
+.slid-img img{
+    border-radius: 10px;
+}
+.row img{
+    height: 500px;
 }
 .service_all h1{
     color: #009DE5;
@@ -72,28 +75,6 @@ section{
     height: 882px;
     background-color: #009DE5;
 }
-.left-side h1{
-    margin-bottom:10px;
-    margin-top:10px;
-    color:white;
-}
-.left-side h2{
-    margin-bottom:10px;
-    margin-top:10px;
-    color:#FFC82B;
-}
-.left-side p{
-    margin-bottom:10px;
-    text-align:justify;
-}
-.right-side{
-    float: right;
-    width: 42%;
-}
-.right-side img{
-    width: 100%;
-    height:450px;
-}
 .from{
     padding: 50px;
     margin-top: 500px;
@@ -108,26 +89,11 @@ section{
     padding: 5px;
     box-shadow: 10px 10px 40px gray;
 }
-.em{
-    height: 50px;
-    width: 500px;
+.yellow{
     background-color:#FFFF89;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-label{
-    color: #009DE5;
-    font-size: 20px;
 }
 button{
-    padding: 11px;
-    margin-top: 15px;
-    border-radius: 5px;
     box-shadow: 10px 10px 40px gray;
-    background-color:#009DE5 ;
-    color: white;
-    font-weight: 600;
-    border: none;
 }
 .social{
     margin:10px;
