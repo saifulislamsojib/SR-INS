@@ -16,19 +16,12 @@ section{
 .slid-img img{
     border-radius: 10px;
 }
-.row img{
+.about img{
     height: 500px;
 }
-.service_all img{
-    width:100%;
-}
 .service01{
-    width:32%;
     position: relative;
-    content:"" ;
-    float:left;
-    margin:5px;
-    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 10px;
 }
 .overlay{
     position: absolute;
@@ -39,7 +32,6 @@ section{
     background-color: rgba(90, 234, 212, 0.7);
     opacity:0;
     transition: 0.5s;
-    content: "";
 }
 .overlay img{
     position: absolute;
@@ -60,28 +52,11 @@ section{
     height:60px;
     top:43%;
 }
-.main-content{
-    width: 100%;
-}
-.left-side{
-    float: left;
-    width: 55%;
-    padding: 12px;
-    height: 882px;
-    background-color: #009DE5;
-}
 .from{
     padding: 50px;
     margin-top: 500px;
 }
 .from input{
-    box-shadow: 10px 10px 40px gray;
-}
-.txt{
-    height: 150px;
-    width: 500px;
-    background-color:#FFFF89;
-    padding: 5px;
     box-shadow: 10px 10px 40px gray;
 }
 .yellow{
