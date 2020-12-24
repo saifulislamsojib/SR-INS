@@ -16,8 +16,11 @@ section{
     border-radius: 10px;
     transition: 0.5s;
 }
-.slid-img img{
-    border-radius: 10px;
+.carousel-inner{
+    border-radius: 20px;
+}
+.color{
+    color:rgb(255, 67, 67);
 }
 .about img{
     height: 500px;
@@ -44,11 +47,14 @@ section{
     left:45%;
     opacity:1;
 }
+.service01:hover{
+    transform:scale(1.08);
+    transition:0.5s;
+}
 .service01:hover .overlay{
     opacity:1;
     transition:0.5s;
 }
-
 #icon{
     left:50%;
     width:60px;
@@ -63,6 +69,9 @@ section{
     box-shadow: 10px 10px 40px gray;
 }
 .yellow{
+    background-color:lightblue;
+}
+.yellow:focus{
     background-color:#FFFF89;
 }
 button{
