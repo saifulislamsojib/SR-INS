@@ -8,6 +8,9 @@ section{
     border:2px solid #C91600;
     border-radius: 10px;
 }
+.navbar-brand{
+    font-size:18px;
+}
 .navbar-brand:hover,.nav-link:hover{
     background-color: blue;
     border-radius: 10px;
