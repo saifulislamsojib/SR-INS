@@ -19,15 +19,16 @@ section{
 .carousel-inner{
     border-radius: 20px;
 }
-.color{
-    color:rgb(255, 67, 67);
+.graphic{
+    height: 488px;
 }
-.about img{
-    height: 500px;
+.web{
+    height: 509px;
 }
 .service01{
     position: relative;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 .overlay{
     position: absolute;
@@ -47,8 +48,8 @@ section{
     left:45%;
     opacity:1;
 }
-.service01:hover{
-    transform:scale(1.08);
+.service01:hover img{
+    transform:scale(1.12);
     transition:0.5s;
 }
 .service01:hover .overlay{
