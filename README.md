@@ -1,2 +1,2 @@
-# SR-INS
-SR-INS
+# sis-design-institute
+sis-design-institute
